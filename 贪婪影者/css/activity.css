@@ -1,0 +1,793 @@
+/* 初始化css代码--------------------------- */
+body,p,ul,li,div,img,h3 {
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    overflow: hidden;
+    margin: 0 auto;
+}
+.b{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* 网页内容开始 */
+.warp{
+    margin: 0 auto;
+    width: 100%;
+    height: 1080px;
+}
+
+/* 开始进入网页滑动门 */
+.warp .left-door{
+    background: url(../img/p0-6.jpg) no-repeat right center;
+    background-size: 960px 1080px;
+    width: 50%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 15;
+}
+.warp .right-door{
+    background: url(../img/p0-7.jpg) no-repeat left center;
+    background-size: 960px 1080px;
+    width: 50%;
+    height: 100%;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 15;
+}
+.warp .door-key{
+    margin: 0 auto;
+    background: url(../img/p0-5.png) no-repeat center center;
+    width: 854px;
+    height: 710px;
+    z-index: 16;
+    transform: translate(-50%,-50%);
+    position: fixed;
+    top: 50%;
+    left:50%;
+}
+.warp .couplet-left{
+    background: url(../img/p0-3.png) no-repeat center center;
+    background-size: contain;
+    width: 200px;
+    height: 450px;
+    z-index: 16;
+    transform: translate(-50%,-50%);
+    position: fixed;
+    top: 50%;
+    left:15%;
+}
+.warp .couplet-right{
+    background: url(../img/p0-4.png) no-repeat center center;
+    background-size: contain;
+    width: 200px;
+    height: 450px;
+    z-index: 16;
+    transform: translate(-50%,-50%);
+    position: fixed;
+    top: 50%;
+    left:85%;
+}
+.bg{
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    background: url(../img/bg-part.jpg) no-repeat center top;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+/* 顶部5个活动灯笼样式 */
+nav{
+    width: 100%;
+}
+.logo{
+    display: block;
+    width: 138px;
+    height: 62px;
+    background: url(../img/hdq-logo.png) no-repeat;
+    background-size: contain;
+    position: absolute;
+    left: 150px;
+    top: 10px;
+    text-indent: -999px;
+    z-index: 99;
+}
+.nav-box{
+    height: 251px;
+    width: 1200px;
+    margin: 0 auto;
+    margin-left: 270px;
+    position: absolute;
+    top: 0;
+    z-index: 10;
+}
+.nav-box li {
+    float: left;
+    cursor: pointer;
+}
+.nav-box-style{
+    width: 90px;
+}
+.nav-box li img{
+    width: 90px;
+}
+.nav-box li:nth-child(1){
+    margin-right: 88px;
+}
+.nav-box li:nth-child(2){
+    margin-right: 75px;
+}
+.nav-box li:nth-child(3){
+    margin-right: 85px;
+}
+.nav-box li:nth-child(4){
+    margin-right: 78px;
+}
+.nav-bg{
+    width: 976px;
+    height: 120px;
+    background: url(../img/img-nav-bg.png) no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: 264px;
+    top: 0;
+}
+.nav-box .bg-off{
+    position: absolute;
+    top: 0;
+}
+
+/* 网页中间主体内容开始--------------------------------------- */
+.content{
+    margin-top: 170px;
+    width: 850px;
+    height: 425px;
+    position: relative;
+    left: 0;
+    top: 0;
+    z-index: 5;
+}
+
+/* 第一张画卷开始 -------------------------------------*/
+.content .tab-scroll-one{
+    background: url(../img/scroll1-l.png) no-repeat;
+    background-size: contain;
+    width: 0px;
+    height: 425px;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+}
+.tab-scroll-one .tab-box{
+    width: 70px;
+    height: 425px;
+}
+.content .tab-scroll-one .tab-box .btn1{
+    display: inline-block;
+    width: 65px;
+    height: 160px;
+    background: url(../img/spr-btn.png) no-repeat -176px -1060px;
+    position: absolute;
+    left: -25px;
+    top: 22px;
+}
+.content .tab-scroll-one .tab-box .btn2{
+    display: inline-block;
+    width: 65px;
+    height: 160px;
+    background: url(../img/spr-btn.png) no-repeat -11px -1245px;
+    position: absolute;
+    left: -25px;
+    top: 200px;
+}
+.content .tab-scroll-right{
+    width: 61px;
+    height: 425px;
+    position: absolute;
+    background: url(../img/scroll1-r.png) no-repeat;
+    background-size: contain;
+    right: -55px;
+    top: 0px;
+    display: none;
+}
+.content .tab-scroll-one .tab-wrap{
+    width: 185px;
+    height: 142px;
+    position: absolute;
+    top: 125px;
+    right: 15px;
+    font-size: 12px;
+    color: #805612;
+}
+h3{
+    margin-bottom: 8px;
+    color: #412901;
+}
+p{
+    margin-bottom: 6px;
+}
+/* 第一张画卷结束 */
+
+/* 第二张画卷开始 -----------------------------------*/
+.content .tab-scroll-two{
+    background: url(../img/scroll2-l.png) no-repeat;
+    background-size: contain;
+    width: 850px;
+    height: 425px;
+    margin: 0 auto;
+    display: none;
+}
+.tab-scroll-two .tab-box{
+    width: 70px;
+    height: 425px;
+}
+.content .tab-scroll-two .tab-box .btn1{
+    display: inline-block;
+    width: 65px;
+    height: 160px;
+    background: url(../img/spr-btn.png) no-repeat -176px -532px;
+    position: absolute;
+    left: -30px;
+    top: 22px;
+}
+.content .tab-scroll-two .tab-box .btn2{
+    display: inline-block;
+    width: 65px;
+    height: 160px;
+    background: url(../img/spr-btn.png) no-repeat -11px -891px;
+    position: absolute;
+    left: -23px;
+    top: 200px;
+}
+.content .tab-scroll-two .tab-wrap{
+    width: 185px;
+    height: 142px;
+    position: absolute;
+    top: 195px;
+    right: 40px;
+    font-size: 12px;
+    color: #805612;
+}
+h3{
+    margin-bottom: 8px;
+    color: #412901;
+}
+p{
+    margin-bottom: 6px;
+}
+.part2-code{
+    width: 105px;
+    height: 122px;
+    position: absolute;
+    right: 95px;
+    top: 55px;
+    background: url(../img/part2-code.png) no-repeat;
+    background-size: contain;
+}
+/* 第二张画卷结束 */
+
+/* 第三张画卷开始 -----------------------------------*/
+.content .tab-scroll-three{
+    background: url(../img/scroll3-l.png) no-repeat;
+    background-size: contain;
+    width: 850px;
+    height: 425px;
+    margin: 0 auto;
+    display: none;
+}
+.tab-scroll-three .tab-box{
+    width: 70px;
+    height: 425px;
+}
+.content .tab-scroll-three .tab-box .btn1{
+    display: inline-block;
+    width: 65px;
+    height: 160px;
+    background: url(../img/spr-btn.png) no-repeat -176px -532px;
+    position: absolute;
+    left: -30px;
+    top: 22px;
+}
+.content .tab-scroll-three .tab-box .btn2{
+    display: inline-block;
+    width: 65px;
+    height: 160px;
+    background: url(../img/spr-btn.png) no-repeat -11px -891px;
+    position: absolute;
+    left: -23px;
+    top: 200px;
+}
+.content .tab-scroll-three .tab-wrap{
+    width: 250px;
+    height: 160px;
+    position: absolute;
+    top: 190px;
+    right: 50px;
+    font-size: 12px;
+    color: #805612;
+}
+h3.skill-text-one{
+    margin-bottom: 8px;
+    color: #412901;
+    display: block;
+    margin-top: 22px;
+}
+p.skill-text-one{
+    margin-bottom: 6px;
+    display: block;
+}
+h3.skill-text-two{
+    margin-bottom: 8px;
+    color: #412901;
+    display: none;
+}
+p.skill-text-two{
+    margin-bottom: 6px;
+    display: none;
+}
+h3.skill-text-three{
+    margin-bottom: 8px;
+    color: #412901;
+    display: none;
+}
+p.skill-text-three{
+    margin-bottom: 6px;
+    display: none;
+}
+.tab-wish-two{
+    width: 480px;
+    height: 272px;
+    position: absolute;
+    right: -65px;
+    top: -70px;
+    background: url(../img/img-part3-text1.png) no-repeat;
+    background-size: contain;
+    display: none;
+}
+.content .tab-scroll-three .tab-wrap .skill-one{
+    display: inline-block;
+    background: url(../img/ico-skill.png) no-repeat;
+    background-size: cover;
+    width: 38px;
+    height: 38px;
+    position: absolute;
+    right: 180px;
+    top: -46px;
+    opacity: 1;
+}
+.content .tab-scroll-three .tab-wrap .skill-two{
+    display: inline-block;
+    background: url(../img/ico-skill.png) no-repeat -54px 0;
+    background-size: cover;
+    width: 38px;
+    height: 38px;
+    position: absolute;
+    right: 120px;
+    top: -46px;
+    opacity: 0.5;
+}
+.content .tab-scroll-three .tab-wrap .skill-three{
+    display: inline-block;
+    background: url(../img/ico-skill.png) no-repeat -108px 0;
+    background-size: cover;
+    width: 38px;
+    height: 38px;
+    position: absolute;
+    right: 60px;
+    top: -46px;
+    opacity: 0.5;
+}
+/* 第三张画卷结束 */
+
+/* 第四张画卷开始 -----------------------------------*/
+.content .tab-scroll-four{
+    width: 850px;
+    height: 425px;
+    margin: 0 auto;
+    display: none;
+}
+.tab-scroll-four .tab-box{
+    width: 70px;
+    height: 425px;
+}
+.content .tab-scroll-four .tab-wrap{
+    width: 185px;
+    height: 142px;
+    position: absolute;
+    top: 240px;
+    left: 120px;
+    font-size: 12px;
+    color: #e5cfab;
+}
+.content .tab-scroll-four h3{
+    margin-bottom: 8px;
+    color: white;
+}
+.content .tab-scroll-four p{
+    margin-bottom: 6px;
+}
+.btn-more{
+    width: 88px;
+    height: 33px;
+    position: absolute;
+    left: 120px;
+    bottom: 55px;
+    background: url(../img/btn-more.png) no-repeat;
+    background-size: contain;
+    display: none;
+    z-index: 5;
+}
+/* 第四张画卷结束 */
+
+/* 第五张画卷开始 -------------------------------------*/
+.content .tab-scroll-five{
+    background: url(../img/scroll1-l.png) no-repeat;
+    background-size: contain;
+    width: 850px;
+    height: 425px;
+    margin: 0 auto;
+    display: none;
+}
+.tab-scroll-five .tab-box{
+    width: 70px;
+    height: 425px;
+}
+.content .tab-scroll-five .tab-box .btn1{
+    display: inline-block;
+    width: 65px;
+    height: 160px;
+    background: url(../img/spr-btn.png) no-repeat -176px -4px;
+    position: absolute;
+    left: -25px;
+    top: 22px;
+}
+.content .tab-scroll-five .tab-box .btn2{
+    display: inline-block;
+    width: 65px;
+    height: 160px;
+    background: url(../img/spr-btn.png) no-repeat -11px -190px;
+    position: absolute;
+    left: -25px;
+    top: 200px;
+}
+.content .tab-scroll-five .tab-wrap{
+    width: 185px;
+    height: 142px;
+    position: absolute;
+    top: 125px;
+    right: 25px;
+    font-size: 12px;
+    color: #805612;
+}
+h3{
+    margin-bottom: 8px;
+    color: #412901;
+}
+p{
+    margin-bottom: 6px;
+}
+/* 第五张画卷结束 */
+
+/* 第一个活动的许愿条开始 ------------------------------*/
+.content .tab-scroll-one .tab-wish-one{
+    width: 170px;
+    height: 310px;
+    position: absolute;
+    right: 190px;
+    top: 35px;
+    background: url(../img/img-part1-text1.png) no-repeat;
+    background-size: cover;
+    display: none;
+}
+/* 第一个活动的许愿条结束 */
+
+/* 第一个活动的人物开始---------------------------------- */
+.content .person-1{
+    width: 570px;
+    height: 520px;
+    position: absolute;
+    left: 10px;
+    bottom: -100px;
+    display: block;
+}
+.content .person-1 .person-one{
+    background: url(../img/img-part1-4.png) no-repeat;
+    background-size: contain;
+    width: 330px;
+    height: 520px;
+    position: absolute;
+    left: 180px;
+    top: -800px; /* 应停留最终位置-10px */
+}
+.content .person-1 .person-two{
+    background: url(../img/img-part1-2.png) no-repeat;
+    background-size: contain;
+    width: 320px;
+    height: 405px;
+    position: absolute;
+    left: -700px; /* 应停留最终位置0px */
+    top: -650px; /* 应停留最终位置150px */
+}
+.content .person-1 .person-three{
+    background: url(../img/img-part1-3.png) no-repeat;
+    background-size: contain;
+    width: 335px;
+    height: 430px;
+    position: absolute;
+    right: -700px; /* 应停留最终位置260px */
+    top: -750px;  /* 应停留最终位置100px */
+}
+.content .person-1 .person-four{
+    background: url(../img/img-part1-1.png) no-repeat;
+    background-size: contain;
+    width: 460px;
+    height: 525px;
+    position: absolute;
+    left: 50px; /* 应停留最终位置50px */
+    bottom: -700px;  /* 应停留最终位置40px */
+}
+/* 第一个活动人物的结束 */
+
+/* 第二个活动的人物开始-------------------------------------- */
+.content .person-2{
+    width: 570px;
+    height: 520px;
+    position: absolute;
+    left: 10px;
+    bottom: -100px;
+    display: none;
+}
+.content .person-2 .person-one{
+    background: url(../img/img-part2-2.png) no-repeat;
+    background-size: contain;
+    width: 330px;
+    height: 520px;
+    position: absolute;
+    left: 190px;
+    top: -800px; /* 应停留最终位置-10px */
+}
+.content .person-2 .person-two{
+    background: url(../img/img-part2-3.png) no-repeat;
+    background-size: contain;
+    width: 350px;
+    height: 480px;
+    position: absolute;
+    left: 20px; /* 应停留最终位置0px */
+    top: -800px; /* 应停留最终位置150px */
+}
+.content .person-2 .person-three{
+    background: url(../img/img-part2-4.png) no-repeat;
+    background-size: contain;
+    width: 335px;
+    height: 465px;
+    position: absolute;
+    left: 370px; /* 应停留最终位置260px */
+    top: -800px;  /* 应停留最终位置100px */
+}
+.content .person-2 .person-four{
+    background: url(../img/img-part2-text2.png) no-repeat;
+    background-size: contain;
+    width: 460px;
+    height: 150px;
+    position: absolute;
+    left: 80px; /* 应停留最终位置50px */
+    bottom: -550px;  /* 应停留最终位置40px */
+}
+/* 第二个活动人物的结束 */
+
+/* 第三个活动的人物开始 */
+.content .person-3{
+    width: 570px;
+    height: 520px;
+    position: absolute;
+    left: 10px;
+    bottom: -100px;
+    display: none;
+}
+.content .person-3 .person-one{
+    background: url(../img/img-part3-1.png) no-repeat;
+    background-size: contain;
+    width: 330px;
+    height: 520px;
+    position: absolute;
+    left: 158px;
+    bottom: -800px; /* 应停留最终位置-10px */
+}
+/* 第三个活动人物的结束 */
+
+/* 第四个活动的人物开始 */
+.content .person-4{
+    width: 570px;
+    height: 520px;
+    position: absolute;
+    left: 10px;
+    bottom: -100px;
+    display: none;
+}
+.content .person-4 .person-one{
+    background: url(../img/img-part4-text.png) no-repeat;
+    background-size: contain;
+    width: 260px;
+    height: 350px;
+    position: absolute;
+    left: 25px;
+    top: -800px; /* 应停留最终位置-10px */
+}
+.content .person-4 .person-two{
+    background: url(../img/img-part4-3.png) no-repeat;
+    background-size: contain;
+    width: 510px;
+    height: 520px;
+    position: absolute;
+    left: -400px; /* 应停留最终位置0px */
+    top: -450px; /* 应停留最终位置150px */
+}
+.content .person-4 .person-three{
+    background: url(../img/img-part4-2.png) no-repeat;
+    background-size: contain;
+    width: 420px;
+    height: 480px;
+    position: absolute;
+    right: -550px; /* 应停留最终位置260px */
+    top: -450px;  /* 应停留最终位置100px */
+}
+.content .person-4 .person-four{
+    background: url(../img/img-part4-1.png) no-repeat;
+    background-size: contain;
+    width: 680px;
+    height: 640px;
+    position: absolute;
+    left: 50px; /* 应停留最终位置50px */
+    bottom: -1400px;  /* 应停留最终位置40px */
+}
+/* 第四个活动人物的结束 */
+
+/* 第五个活动的人物开始 */
+.content .person-5{
+    width: 570px;
+    height: 520px;
+    position: absolute;
+    left: 10px;
+    bottom: -100px;
+    display: none;
+}
+.content .person-5 .person-one{
+    background: url(../img/img-part5-1.png) no-repeat;
+    background-size: contain;
+    width: 420px;
+    height: 570px;
+    position: absolute;
+    left: 158px;
+    bottom: -800px; /* 应停留最终位置-10px */
+}
+.content .person-5 .person-two{
+    background: url(../img/img-part5-text.png) no-repeat;
+    background-size: contain;
+    width: 130px;
+    height: 230px;
+    position: absolute;
+    left: 75px;
+    top: -800px; /* 应停留最终位置-10px */
+}
+.content .person-5 .person-three{
+    background: url(../img/img-part5-4.png) no-repeat;
+    background-size: contain;
+    width: 700px;
+    height: 300px;
+    position: absolute;
+    left: 5px;
+    bottom: -800px; /* 应停留最终位置-10px */
+}
+/* 第五个活动人物的结束 */
+
+/* 底部返回官网按钮, 局部云开始----------------------- */
+.cloud-lt{
+    background: url(../img/img-mask1.png) no-repeat;
+    position: fixed;
+    left: 0;
+    top: -60px;
+    width: 370px;
+    height: 250px;
+}
+.cloud-rt{
+    background: url(../img/img-mask2.png) no-repeat;
+    position: fixed;
+    right: 0;
+    top: -65px;
+    width: 370px;
+    height: 282px;
+}
+.cloud-lb{
+    background: url(../img/img-mask3.png) no-repeat;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 408px;
+    height: 271px;
+    z-index: 2;
+}
+.cloud-rb{
+    background: url(../img/img-mask4.png) no-repeat;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 445px;
+    height: 370px;
+    z-index: 2;
+}
+.cloud-cb{
+    background: url(../img/img-mask5.png) no-repeat center center;
+    position: fixed;
+    bottom: -5px;
+    right: 0px;
+    width: 1200px;
+    height: 70px;
+}
+.cloud-bottomCL{
+    background: url(../img/img-mask7.png) no-repeat;
+    position: fixed;
+    left: 0;
+    bottom: -30px;
+    width: 445px;
+    height: 135px;
+}
+.cloud-bottomCR{
+    background: url(../img/img-mask8.png) no-repeat;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 150px;
+    height: 205px;
+}
+.cloud-bottomC{
+    background: url(../img/img-mask6.png) no-repeat;
+    position: fixed;
+    left: 0px;
+    bottom: -60px;
+    width: 525px;
+    height: 159px;
+}
+footer .btn-toweb{
+    position: absolute;
+    width: 88px;
+    height: 33px;
+    bottom: 50px;
+    right: 320px;
+    background: url(../img/btn-toweb.png) no-repeat;
+    background-size: contain;
+    z-index: 10;
+}
+/* 底部返回官网按钮, 局部云结束----------------------- */
+
+/* 给tab-box和技能加入鼠标移入动画 */
+#content-text .tab-box a{
+    transition:all 0.6s ease;
+}
+#content-text .tab-box a:hover{
+    transform: scale(1.2,1.2);
+}
+.content .tab-scroll-three a{
+    transition:all 0.6s ease;
+}
+.content .tab-scroll-three a:hover{
+    transform: rotate(180deg);
+}
+.nav-box li{
+    transition:all 0.6s ease;
+}
+.nav-box li:hover{
+    transform: scale(1.3,1.3);
+}

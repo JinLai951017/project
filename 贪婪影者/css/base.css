@@ -1,0 +1,88 @@
+body,
+div,
+span,
+p,
+a,
+img,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+input,
+strong,
+del,
+em,
+ins,
+i {
+    margin: 0;
+    padding: 0;
+}
+
+i {
+    font-style: normal;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    /* 清除a标签的默认的颜色以及下划线 */
+}
+
+img {
+    border: none;
+    vertical-align: middle;
+}
+
+input {
+    border: 0 none;
+    /* 清除input标签默认自带的边框 */
+    outline: none;
+    /* 外轮廓线,点击高亮 */
+    /* 清除高亮效果 */
+}
+
+body {
+    background-color: #fff;
+    /* font: 12px/100% "微软雅黑"; */
+    /* 将默认的字体大小改成12px */
+    /* 100%指的是行高,当前行高等于当前设置的字体大小的一倍 */
+    /* 将随意变动的行高,控制为一个固定的标准 */
+}
+
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* .clearfix::after {
+    content: ".";
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+.clearfix {
+    *zoom: 1;
+} */
+
+
+/* 清除浮动影响，解决margin-top塌陷 */
+.clearfix:before,.clearfix:after{
+    content:'';
+    display:table;    
+}
+.clearfix:after{
+    clear:both;
+}
+.clearfix{
+    zoom:1;
+}

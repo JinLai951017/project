@@ -1,0 +1,189 @@
+﻿    /* 头部 */
+    .header-wrapper {
+        width: 100%;
+        height: 497px;
+        background: url(../img/list-bg1.jpg) no-repeat center;
+        position: relative;
+    }
+
+    .header-wrapper .title {
+        position: absolute;
+        width: 571px;
+        height: 268px;
+        background: url(../img/list-ninja-title.png) no-repeat center;
+        bottom: 100px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    /* 内容 */
+    .main {
+        height: 1192px;
+        background: url(../img/list-ninja-bg.jpg) no-repeat center;
+    }
+
+    .w1200 {
+        width: 1200px;
+        margin: 0 auto;
+        position: relative;
+    }
+
+    /*  全部 */
+    .ninja-header {
+        padding-top: 43px;
+    }
+
+    .float-l {
+        float: left;
+    }
+
+    .ninja-header .ninja-tab li.active {
+        color: #2d1a07;
+        background: url(../img/ninja-tab-active.png) no-repeat center;
+    }
+
+    .ninja-header .ninja-tab li {
+        width: 88px;
+        height: 35px;
+        line-height: 35px;
+        text-align: center;
+        font-size: 16px;
+        cursor: pointer;
+        float: left;
+        margin: 0 1px;
+        background: #141220;
+        color: #c8ab83;
+    }
+
+    .page-turn {
+        position: absolute;
+        left: 50%;
+        bottom: 0px;
+        margin-left: -180px;
+    }
+
+    .page-turn .ninja-tab1 li {
+        width: 88px;
+        height: 35px;
+        line-height: 35px;
+        text-align: center;
+        font-size: 16px;
+        cursor: pointer;
+        float: left;
+        margin: 0 1px;
+        background: #141220;
+        color: #c8ab83;
+    }
+
+    .page-turn .ninja-tab1 li.active1 {
+        color: #2d1a07;
+        background: url(../img/ninja-tab-active.png) no-repeat center;
+    }
+
+    /* 首页 忍者资料*/
+    .main .thisPosition {
+        font-size: 18px;
+        color: #7b6232;
+        padding-bottom: 15px;
+        text-align: left;
+        border-bottom: 1px dotted #c8a672;
+        margin-top: 30px;
+    }
+
+
+    .main .thisPosition a {
+        font-size: 18px;
+        color: #7b6232;
+    }
+
+    /* 图片 */
+    .ninja-cen {
+        padding-top: 10px;
+    }
+
+    element.style {
+        display: block;
+    }
+
+    .cen-list li,
+    .cen-list1 li {
+        float: left;
+        margin-right: 70px;
+        margin-bottom: 50px;
+        width: 103px;
+    }
+
+    a {
+        color: #666;
+        text-decoration: none;
+        /* font-size: 0.24rem; */
+        font-size: 12px;
+        outline: none;
+        /* blr: expression(this.onFocus=this.blur()); */
+    }
+
+    .ninja-cen .pic-bg {
+        display: block;
+        width: 103px;
+        height: 103px;
+        background: url(../img/ninja-tx-bg.png) no-repeat center;
+        padding-top: 9px;
+    }
+
+    .ninja-cen .pic-bg img {
+        display: block;
+        width: 84px;
+        height: 84px;
+        margin: 0 auto 0;
+        border-radius: 50%;
+    }
+
+    .ninja-cen .name {
+        display: block;
+        text-align: center;
+        font-size: 19px;
+        color: #734211;
+        width: 100%;
+        margin-top: 10px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        -webkit-line-clamp: 1;
+    }
+
+    .ninja-cen li:nth-child(7n) {
+        margin-right: 0;
+    }
+
+    .page-turn a {
+        display: inline-block;
+        width: 53px;
+        height: 53px;
+    }
+
+    a {
+        color: #666;
+        text-decoration: none;
+        /* font-size: 0.24rem; */
+        font-size: 12px;
+        outline: none;
+        /* blr: expression(this.onFocus=this.blur()); */
+    }
+
+    /* .audio {
+        width: 300px;
+        height: 54px;
+        position: absolute;
+        top: 88px;
+        left: 164px;
+    } */
+
+    .btn-audio {
+        position: absolute;
+        left: 464px;
+        top: 46px;
+        width: 30px;
+        height: 30px;
+        background: url(../img/voice_stop.png) no-repeat center bottom;
+        background-size: cover;
+    }

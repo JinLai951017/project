@@ -1,0 +1,273 @@
+body{
+    position: relative;
+}
+/* 遮罩层 */
+.mask {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.7;
+    display: none;
+    z-index: 2;
+  }
+
+/* 整个大盒子 */
+.wrap {
+    width: 100%;
+    position: relative;
+}
+
+
+/* 背景大盒子 */
+.page-bg {
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+}
+
+/* 背景图 */
+.bg-body1 {
+    width: 100%;
+    height: 467px;
+    background: url(../img/mx-img/body-bg1.jpg)no-repeat center center;
+}
+
+.bg-body2 {
+    width: 100%;
+    height: 466px;
+    background: url(../img/mx-img/body-bg2.jpg)no-repeat center center;
+}
+
+/* 中心区*/
+.main {
+    width: 1200px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -600px;
+}
+/* 头部导航 */
+.nav {
+    width: 1200px;
+    height: 67px;
+    margin-top: 12px;
+    position: relative;
+}
+
+.login-div {
+    position: absolute;
+    left: 50%;
+    margin-left: -367px;
+    top: 200px;
+    display: none;
+}
+
+.close {
+    position: absolute;
+    right: 100px;
+    top: 25px;
+    width: 70px;
+    height: 55px;
+}
+
+.login-qq {
+    position: absolute;
+    width: 100px;
+    height: 110px;
+    top: 130px;
+    left: 215px;
+}
+
+.login-wx {
+    position: absolute;
+    width: 110px;
+    height: 110px;
+    top: 130px;
+    left: 450px;
+}
+
+.btn-logo {
+    width: 127px;
+    height: 67px;
+    background: url(../img/mx-img/btn-logo.png) no-repeat center center;
+}
+
+.btn-fhgw {
+    width: 182px;
+    height: 49px;
+    background: url(../img/mx-img/btn-fhgw.png) no-repeat center center;
+
+}
+
+.nav .nav-sign {
+    font-size: 14px;
+    display: block;
+    margin: 15px 0 0 0;
+    color: white;
+}
+
+.nav a {
+    color: red;
+}
+
+/* 中间内容 选择区 */
+.main-cen {
+    width: 873px;
+    height: 831px;
+    position: relative;
+    top: -58px;
+    margin-left: 15px;
+    padding: 110px 33px 32px 5px;
+    margin-top: 57px;
+    box-sizing: border-box;
+}
+
+.main-cen-top {
+    width: 420px;
+    margin: 30px auto 0;
+    color: #6e2323;
+    box-sizing: border-box;
+}
+
+.choice {
+    width: 420px;
+    height: 38px;
+    font-size: 22px;
+    font-weight: bold;
+    position: relative;
+    margin-bottom: 17px;
+}
+
+.choice span {
+    display: inline-block;
+    width: 105px;
+    text-align: center;
+
+}
+
+.choice select {
+    width: 226px;
+    height: 38px;
+    line-height: 38px;
+    background-color: #383030;
+    border: 1px solid #e6d9a0;
+    border-radius: 10px;
+    color: white;
+    padding-left: 15px;
+}
+
+.choice input {
+    width: 226px;
+    height: 38px;
+    line-height: 38px;
+    background-color: #383030;
+    border: 1px solid #e6d9a0;
+    border-radius: 10px;
+    color: white;
+    padding-left: 15px;
+    box-sizing: border-box;
+}
+
+.choice #verifCode {
+    width: 113px;
+    height: 38px;
+    line-height: 38px;
+    background-color: #383030;
+    border: 1px solid #e6d9a0;
+    border-radius: 10px;
+    color: white;
+    padding-left: 20px;
+    box-sizing: border-box;
+
+}
+
+.choice b {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: normal;
+    position: absolute;
+    bottom: 10px;
+    color: #835d30;
+}
+
+.choice a {
+    display: inline-block;
+    position: absolute;
+    width: 200px;
+    height: 38px;
+
+}
+
+.choice #kuang {
+    display: inline-block;
+    width: 113px;
+    height: 38px;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 5px;
+    line-height: 38px;
+    color: #c4a97d;
+}
+
+.main-cen-top .btn-dh {
+    display: block;
+    width: 204px;
+    height: 53px;
+    margin: 35px auto 0;
+    background: url(../img/mx-img/btn-dh.png)no-repeat center;
+}
+
+.main-cen .step {
+    font-size: 14px;
+    font-weight: bold;
+    position: absolute;
+    color: #835d30;
+    border-bottom: 1px dashed #835d30;
+    width: 460px;
+    margin: 0 auto;
+}
+
+.main-cen .step-cen {
+    margin-top: 25px;
+    width: 460px;
+    font-size: 14px;
+    color: #383030;
+    margin: 25px auto 0;
+    line-height: 1.5;
+}
+
+.main-cen .step-cen b {
+    border-radius: 50%;
+    background: #c4a97d;
+    padding: 0 5px;
+}
+
+.main-cen .tips {
+    font-size: 14px;
+    font-weight: bold;
+    color: #835d30;
+    width: 388px;
+    border-bottom: 1px dashed #835d30;
+    margin: 5px auto 0px;
+}
+
+.main-cen .tips-cen {
+    font-size: 14px;
+    color: #383030;
+    margin: 5px auto 0;
+    line-height: 1.5;
+    padding-left: 30px;
+    box-sizing: border-box;
+}
+
+.fl{
+    float:left;
+}
+.fr{
+    float:right;
+}

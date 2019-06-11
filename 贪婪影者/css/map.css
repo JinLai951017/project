@@ -1,0 +1,1727 @@
+/* 初始化开始 */
+html,
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+input,
+textarea,
+p,
+th,
+td,
+em,
+button,
+blockquote {
+    margin: 0;
+    padding: 0;
+    font-family: "Microsoft YaHei";
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+/* 初始化结束 */
+@-webkit-keyframes trans {
+    4.7% {
+        background: url(../img/nnp-img/transfer1.png) no-repeat center/cover;
+    }
+
+    9.4% {
+        background: url(../img/nnp-img/transfer2.png) no-repeat center/cover;
+    }
+
+    14.1% {
+        background: url(../img/nnp-img/transfer3.png) no-repeat center/cover;
+    }
+
+    18.8% {
+        background: url(../img/nnp-img/transfer4.png) no-repeat center/cover;
+    }
+
+    23.5% {
+        background: url(../img/nnp-img/transfer5.png) no-repeat center/cover;
+    }
+
+    28.2% {
+        background: url(../img/nnp-img/transfer6.png) no-repeat center/cover;
+    }
+
+    32.9% {
+        background: url(../img/nnp-img/transfer7.png) no-repeat center/cover;
+    }
+
+    37.6% {
+        background: url(../img/nnp-img/transfer8.png) no-repeat center/cover;
+    }
+
+    42.3% {
+        background: url(../img/nnp-img/transfer9.png) no-repeat center/cover;
+    }
+
+    47% {
+        background: url(../img/nnp-img/transfer10.png) no-repeat center/cover;
+    }
+
+    51.7% {
+        background: url(../img/nnp-img/transfer11.png) no-repeat center/cover;
+    }
+
+    56.4% {
+        background: url(../img/nnp-img/transfer12.png) no-repeat center/cover;
+    }
+
+    61.1% {
+        background: url(../img/nnp-img/transfer13.png) no-repeat center/cover;
+    }
+
+    65.8% {
+        background: url(../img/nnp-img/transfer14.png) no-repeat center/cover;
+    }
+
+    70.5% {
+        background: url(../img/nnp-img/transfer15.png) no-repeat center/cover;
+    }
+
+    75.2% {
+        background: url(../img/nnp-img/transfer16.png) no-repeat center/cover;
+    }
+
+    79.9% {
+        background: url(../img/nnp-img/transfer17.png) no-repeat center/cover;
+    }
+
+    84.6% {
+        background: url(../img/nnp-img/transfer18.png) no-repeat center/cover;
+    }
+
+    89.3% {
+        background: url(../img/nnp-img/transfer19.png) no-repeat center/cover;
+    }
+
+    94% {
+        background: url(../img/nnp-img/transfer20.png) no-repeat center/cover;
+    }
+
+    100% {
+        background: url(../img/nnp-img/transfer21.png) no-repeat center/cover;
+    }
+}
+
+/* 主体页面开始 */
+.warp {
+    position: relative;
+}
+
+/* 添加背景图片 */
+.page-bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+}
+
+.body-bg {
+    width: 100%;
+    height: 955px;
+    background: url('../img/nnp-img/body-bg.jpg') 50% 0px no-repeat;
+}
+
+/*  页面头部导航开始  */
+.top-nav {
+    background: url('../img/nnp-img/nav-top-bg.png') center no-repeat;
+    position: absolute;
+    width: 100%;
+    height: 287px;
+
+}
+
+.nav-cen {
+    width: 1200px;
+    height: 77px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.logo {
+    margin-top: 5px;
+    width: 127px;
+    height: 68px;
+    background: url('../img/nnp-img/logo (1).png');
+}
+
+
+/* 音乐动效 */
+.music-box {
+    position: absolute;
+    width: 82px;
+    height: 50px;
+    left: 200px;
+    top: 13px;
+    background: url("../img/nnp-img/icon-music-box-bg.png") no-repeat center/cover;
+    cursor: pointer;
+}
+
+.music-box i:nth-child(1) {
+    width: 2px;
+    height: 24px;
+    background-color: #fff;
+    position: absolute;
+    left: 28px;
+    bottom: 15px;
+    animation: music 0.53s linear infinite;
+
+}
+
+.music-box i:nth-child(2) {
+    width: 2px;
+    height: 24px;
+    background-color: #fff;
+    position: absolute;
+    bottom: 15px;
+    left: 33px;
+    animation: music 0.66s linear infinite;
+}
+
+.music-box i:nth-child(3) {
+    width: 2px;
+    height: 24px;
+    background-color: #fff;
+    position: absolute;
+    bottom: 15px;
+    left: 38px;
+    animation: music 0.7s linear infinite;
+}
+
+.music-box i:nth-child(4) {
+    width: 2px;
+    height: 24px;
+    background-color: #fff;
+    position: absolute;
+    bottom: 15px;
+    left: 43px;
+    animation: music 0.6s linear infinite;
+}
+
+.music-box i:nth-child(5) {
+    width: 2px;
+    height: 24px;
+    background-color: #fff;
+    position: absolute;
+    bottom: 15px;
+    left: 48px;
+    animation: music 0.8s linear infinite;
+}
+
+.music-box i:nth-child(6) {
+    width: 2px;
+    height: 24px;
+    background-color: #fff;
+    position: absolute;
+    bottom: 15px;
+    left: 53px;
+    animation: music 0.5s linear infinite;
+}
+
+@keyframes music {
+    0% {
+        height: 8px
+    }
+
+    50% {
+        height: 25px
+    }
+
+    100% {
+        height: 12px
+    }
+}
+
+/* 音乐动效结束 */
+
+/* 右侧导航开始 */
+.r_navBar {
+    margin-top: 23px;
+}
+
+.r_navBar li {
+    float: left;
+    margin-left: 1px;
+    margin-right: 1px;
+    background-color: #5f412b;
+    width: 96px;
+    height: 38px;
+    text-align: center;
+    line-height: 38px;
+}
+
+.r_navBar li a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    color: #fff;
+}
+
+.r_navBar li:hover {
+    background: url('../img/nnp-img/rzzl-tab-active.png') no-repeat;
+    background-size: cover;
+}
+
+.download {
+    margin-top: 15px;
+    width: 182px;
+    height: 49px;
+    background: url('../img/nnp-img/btn-ljyy.png') no-repeat;
+}
+
+.download a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
+/* 右侧导航结束 */
+
+
+/* main开始 */
+.main {
+    /* position: relative; */
+    width: 1200px;
+    /* height: 955px; */
+    height: 875px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    top: 80px;
+
+}
+
+/* 地图开始 */
+
+
+
+/* 人物模型放置开始 */
+.mingren-model {
+    position: absolute;
+    width: 65px;
+    height: 125px;
+    background: url(../img/nnp-img/icon-mr.png) no-repeat center/cover;
+    bottom: 137px;
+    left: 687px;
+}
+
+.zuozhu-model {
+    position: absolute;
+    width: 63px;
+    height: 131px;
+    background: url(../img/nnp-img/icon-zz.png) no-repeat center/cover;
+    bottom: 212px;
+    left: 669px;
+}
+
+.kakaxi-model {
+    position: absolute;
+    width: 65px;
+    height: 150px;
+    bottom: 50px;
+    left: 860px;
+    background: url(../img/nnp-img/icon-kkx.png) no-repeat center/cover;
+}
+
+.kai-model {
+    position: absolute;
+    width: 63px;
+    height: 148px;
+    background: url(../img/nnp-img/icon-mtk.png) no-repeat center/cover;
+    top: 431px;
+    left: 136px;
+}
+
+.xiaoying-model {
+    position: absolute;
+    width: 63px;
+    height: 126px;
+    background: url(../img/nnp-img/icon-cyy.png) no-repeat center/cover;
+    bottom: 158px;
+    left: 567px;
+}
+
+.xiaoli-model {
+    position: absolute;
+    width: 66px;
+    height: 148px;
+    background: url(../img/nnp-img/icon-xl.png) no-repeat center/cover;
+    top: 520px;
+    left: 255px;
+}
+
+.asima-model {
+    position: absolute;
+    width: 64px;
+    height: 135px;
+    background: url(../img/nnp-img/icon-asm.png) no-repeat center/cover;
+    top: 173px;
+    left: 953px;
+}
+
+.dingci-model {
+    position: absolute;
+    width: 68px;
+    height: 116px;
+    background: url(../img/nnp-img/icon-dc.png) no-repeat center/cover;
+    top: 309px;
+    left: 406px;
+}
+
+.ningci-model {
+    position: absolute;
+    width: 48px;
+    height: 119px;
+    background: url(../img/nnp-img/icon-lc.png) no-repeat center/cover;
+    top: 549px;
+    left: 400px;
+}
+
+.tiantian-model {
+    position: absolute;
+    width: 66px;
+    height: 148px;
+    background: url(../img/nnp-img/icon-tt.png) no-repeat center/cover;
+    top: 478px;
+    left: 338px;
+}
+
+.hong-model {
+    position: absolute;
+    width: 60px;
+    height: 142px;
+    background: url(../img/nnp-img/icon-xyh.png) no-repeat center/cover;
+    top: 175px;
+    left: 873px;
+}
+
+.zhinai-model {
+    position: absolute;
+    width: 63px;
+    height: 108px;
+    background: url(../img/nnp-img/icon-zn.png) no-repeat center/cover;
+    top: 547px;
+    left: 730px;
+}
+
+.ya-model {
+    position: absolute;
+    width: 80px;
+    height: 108px;
+    background: url(../img/nnp-img/icon-y.png) no-repeat center/cover;
+    top: 620px;
+    left: 605px;
+}
+
+.chutian-model {
+    position: absolute;
+    width: 59px;
+    height: 103px;
+    background: url(../img/nnp-img/icon-ct.png) no-repeat center/cover;
+    top: 552px;
+    left: 550px;
+}
+
+.yiluka-model {
+    position: absolute;
+    width: 79px;
+    height: 136px;
+    background: url(../img/nnp-img/icon-ylk.png) no-repeat center/cover;
+    top: 611px;
+    left: 370px;
+}
+
+.sandaimu-model {
+    position: absolute;
+    width: 78px;
+    height: 134px;
+    background: url(../img/nnp-img/icon-sdhy.png) no-repeat center/cover;
+    top: 212px;
+    left: 434px;
+}
+
+.luwan-model {
+    position: absolute;
+    width: 79px;
+    height: 128px;
+    background: url(../img/nnp-img/icon-lw.png) no-repeat center/cover;
+    top: 466px;
+    left: 463px;
+}
+
+.jingye-model {
+    position: absolute;
+    width: 70px;
+    height: 133px;
+    background: url(../img/nnp-img/icon-jy.png) no-repeat center/cover;
+    top: 493px;
+    left: 526px;
+}
+
+.muyewan-model {
+    position: absolute;
+    width: 69px;
+    height: 111px;
+    background: url(../img/nnp-img/icon-myw.png) no-repeat center/cover;
+    top: 682px;
+    left: 453px;
+}
+
+.anburenzhe-model {
+    position: absolute;
+    width: 108px;
+    height: 195px;
+    background: url(../img/nnp-img/icon-abrz.png) no-repeat center/cover;
+    top: 240px;
+    left: 830px;
+}
+
+/* 人物模型放置结束 */
+
+/* 小声逼逼 */
+.xiaoshengbibi {
+    text-align: center;
+    font-size: 15px;
+    position: absolute;
+    top: -40px;
+    padding: 9px;
+    background: rgba(255, 255, 255, 0.7);
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 19px;
+    color: #212121;
+    display: none;
+}
+
+
+
+/* 木叶广场地图开始 */
+.mapmap {
+    width: 100%;
+    height: 667px;
+    position: relative;
+    border: 4px solid #756850;
+    box-sizing: border-box;
+    top: 10px;
+    overflow: hidden;
+}
+
+.mygcbg {
+    width: 1546px;
+    height: 1547px;
+    background: url('../img/nnp-img/mygc-bg.jpg') center no-repeat/cover;
+    position: relative;
+    top: -880px;
+    left: -137px;
+    cursor: pointer;
+}
+
+/* 跳转链接 */
+.rjzx-tt {
+    position: absolute;
+    width: 71px;
+    height: 282px;
+    background: url(../img/nnp-img/icon-rjzx.png) no-repeat center/cover;
+    top: 470px;
+    left: 642px;
+}
+
+.rjzx-tt:hover {
+    background: url(../img/nnp-img/icon-rjzx-active.png) no-repeat center/cover;
+}
+
+.rzzl-tt:hover {
+    background: url(../img/nnp-img/icon-rzzl-active.png) no-repeat center/cover;
+}
+
+.rzzl-tt {
+    position: absolute;
+    width: 71px;
+    height: 288px;
+    background: url(../img/nnp-img/icon-rzzl.png) no-repeat center/cover;
+    top: 210px;
+    left: 1292px;
+}
+
+.mycb-ttt {
+    position: absolute;
+    top: -95px;
+    left: 55px;
+    width: 332px;
+    height: 467px;
+    background: url(../img/nnp-img/transfer1.png) no-repeat center/cover;
+    -webkit-animation: trans 2s infinite alternate;
+}
+
+/* 木叶广场地图结束 */
+
+
+
+/* 木叶村北地图开始 */
+.mycbbg {
+    width: 1383px;
+    height: 1193px;
+    background: url('../img/nnp-img/mycb-bg.jpg') center no-repeat/cover;
+    position: relative;
+    left: -146px;
+    top: -530px;
+    cursor: pointer;
+    display: none;
+}
+
+/* 跳转链接 */
+.bgs-tt {
+    position: absolute;
+    top: -3px;
+    right: 742px;
+    width: 332px;
+    height: 467px;
+    background: url(../img/nnp-img/transfer1.png) no-repeat center/cover;
+    -webkit-animation: trans 2s infinite alternate;
+}
+
+.rzzl-tt:hover {
+    background: url(../img/nnp-img/icon-rzzl-active.png) no-repeat center/cover;
+}
+
+.rzzl-tt {
+    position: absolute;
+    width: 71px;
+    height: 282px;
+    top: 210px;
+    left: 1292px;
+    background: url(../img/nnp-img/icon-rzzl.png) no-repeat center/cover;
+}
+
+
+.mycx-tt {
+    position: absolute;
+    bottom: 260px;
+    right: -20px;
+    width: 332px;
+    height: 467px;
+    background: url(../img/nnp-img/transfer1.png) no-repeat center/cover;
+    -webkit-animation: trans 2s infinite alternate;
+}
+
+.mygc-ttt {
+    position: absolute;
+    bottom: 27px;
+    left: 45px;
+    width: 332px;
+    height: 467px;
+    background: url(../img/nnp-img/transfer1.png) no-repeat center/cover;
+    -webkit-animation: trans 2s infinite alternate;
+}
+
+/* 木叶村北地图结束 */
+
+
+
+
+/* 木叶村西地图开始 */
+.mycxbg {
+    width: 1383px;
+    height: 1193px;
+    background: url('../img/nnp-img/mycx-bg.jpg') center no-repeat/cover;
+    position: relative;
+    left: -190px;
+    top: -141px;
+    cursor: pointer;
+    display: none;
+}
+
+/* 跳转链接 */
+.bgs-tt {
+    position: absolute;
+    top: -3px;
+    right: 742px;
+    width: 332px;
+    height: 467px;
+    background: url(../img/nnp-img/transfer1.png) no-repeat center/cover;
+    -webkit-animation: trans 2s infinite alternate;
+}
+
+.spzx-ff:hover {
+    background: url(../img/nnp-img/icon-spzx-active.png) no-repeat center/cover;
+}
+
+/* .yxts-ff:hover {
+    background: url(../img/nnp-img/icon-yxts-active.png) no-repeat center/cover;
+} */
+
+.spzx-ff {
+    position: absolute;
+    width: 71px;
+    height: 282px;
+    top: 202px;
+    left: 690px;
+    background: url(../img/nnp-img/icon-spzx.png) no-repeat center/cover;
+}
+
+/* 
+.yxts-ff {
+    width: 71px;
+    height: 282px;
+    top: 530px;
+    left: 929px;
+    background: url(../img/nnp-img/icon-yxts.png) no-repeat center/cover;
+} */
+
+
+.mycb-ff {
+    position: absolute;
+    bottom: 60px;
+    left: 50%;
+    width: 332px;
+    height: 467px;
+    background: url(../img/nnp-img/transfer1.png) no-repeat center/cover;
+    -webkit-animation: trans 2s infinite alternate;
+}
+
+/* 木叶村西地图结束 */
+
+
+
+
+
+
+/* 办公室地图开始 */
+.bgsbg {
+    width: 1450px;
+    height: 684px;
+    background: url('../img/nnp-img/hhy-bg.jpg') center no-repeat/cover;
+    position: relative;
+    left: -258px;
+    top: -25px;
+    cursor: pointer;
+    display: none;
+}
+
+/* 跳转链接 */
+
+.mycb-gg {
+    position: absolute;
+    position: absolute;
+    bottom: -45px;
+    right: 273px;
+    width: 332px;
+    height: 467px;
+    background: url(../img/nnp-img/transfer1.png) no-repeat center/cover;
+    -webkit-animation: trans 2s infinite alternate;
+}
+
+/* 办公室地图结束 */
+
+
+
+
+
+
+
+/* 地图结束 */
+
+/* 地图下方导航 */
+.bottom-nav {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    width: 660px;
+    height: 162px;
+    margin-left: -330px;
+}
+
+.bottom-nav-center {
+    width: 588px;
+    height: 144px;
+    position: absolute;
+    top: 10px;
+    left: 34px;
+    background: url('../img/nnp-img/bottom-nav-cen.png') center center no-repeat;
+}
+
+.left-jz {
+    position: absolute;
+    left: 0;
+    width: 58px;
+    height: 162px;
+    background: url('../img/nnp-img/bottom-nav-reel.png');
+}
+
+.right-jz {
+    position: absolute;
+    right: 0;
+    width: 58px;
+    height: 162px;
+    background: url('../img/nnp-img/bottom-nav-reel.png');
+}
+
+/* 卷轴路标部分 */
+.guidepost {
+    position: absolute;
+    top: 45px;
+    left: 64px;
+}
+
+.guidepost li {
+    width: 134px;
+    height: 71px;
+    float: left;
+    line-height: 71px;
+    cursor: pointer;
+    text-align: center;
+    background: url('../img/nnp-img/bottom-nav-tab.png') center center no-repeat;
+
+}
+
+.guidepost li a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    padding-left: 14px;
+    font-size: 18px;
+    color: #624120;
+    font-weight: bold;
+}
+
+/* ******************************************************* */
+.follow {
+    width: 162px;
+    height: 96px;
+    position: absolute;
+    bottom: 60px;
+    right: 46px;
+    text-align: center;
+}
+
+.follow .white {
+    font-size: 14px;
+    color: #fff;
+}
+
+.follow>ul {
+    width: 162px;
+    height: 44px;
+    background: url('../img/nnp-img/follow-bg.png') no-repeat center/cover;
+    margin-top: 10px;
+}
+
+.follow>ul>li {
+    width: 50px;
+    height: 44px;
+    float: left;
+    cursor: pointer;
+    margin: 0 2px;
+    position: relative;
+}
+
+.follow>ul>li>div {
+    height: 121px;
+    width: 210px;
+    background: url('../img/nnp-img/layer-bg.png') no-repeat;
+    background-size: 100% 100%;
+    padding: 10px 20px 10px 10px;
+    box-sizing: border-box;
+    display: none;
+    position: absolute;
+    top: -123px;
+    left: -131px;
+}
+
+.follow>ul>li>div>img {
+    width: 93px;
+    height: 93px;
+    float: left;
+}
+
+.follow>ul>li>div>p {
+    font-size: 18px;
+    color: black;
+    float: right;
+    margin-top: 19px;
+
+}
+
+.follow>ul>li>div>p.ewm_two {
+    margin-top: 7px;
+}
+
+.follow>ul>li>div>p.last {
+    line-height: 52px;
+}
+
+.follow>ul>li:hover div {
+    display: block;
+}
+
+/* ************************************************************************ */
+
+/* main结束 */
+/* 遮罩层 */
+.mask {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.5;
+    display: none;
+}
+
+/* 导航卷轴窗口 */
+.tongyong {
+    width: 1026px;
+    height: 610px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-49%, -58%);
+}
+
+.rouleau p {
+    font-size: 32px;
+    color: rgb(63, 16, 11);
+    font-weight: bold;
+    width: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -65%);
+}
+
+.rouleau {
+    width: 114px;
+    height: 663px;
+    position: relative;
+    background: url('../img/nnp-img/rouleau-bg.png') center center / cover no-repeat;
+}
+
+.rouleau-bg {
+    position: absolute;
+    top: 0;
+    left: 40px;
+    width: 995px;
+    height: 629px;
+    background: url('../img/nnp-img/rouleau-center-bg.png')
+}
+
+.close {
+    position: absolute;
+    top: 11px;
+    right: 11px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+/* 忍界资讯、rjzx 开始*/
+
+.rjzx {
+    display: none;
+}
+
+/* 轮播图开始 */
+.swiper-one li {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.swiper-one {
+    box-sizing: border-box;
+    width: 475px;
+    height: 262px;
+    border: 3px solid #c5b4a1;
+    position: absolute;
+    top: 75px;
+    left: 310px;
+}
+
+.swiper-one li:nth-child(1) {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url('../img/nnp-img/S1.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+.swiper-one li:nth-child(2) {
+    width: 100%;
+    height: 100%;
+    background: url('../img/nnp-img/S2.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+.swiper-one li:nth-child(3) {
+    width: 100%;
+    height: 100%;
+    background: url('../img/nnp-img/S3.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+.swiper-one li:nth-child(4) {
+    width: 100%;
+    height: 100%;
+    background: url('../img/nnp-img/S4.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+.swiper-one li {
+    cursor: pointer;
+}
+
+.swiper-click {
+    position: absolute;
+    top: 317px;
+    left: 500px;
+}
+
+.swiper-click li {
+    float: left;
+    margin-right: 5px;
+    width: 16px;
+    height: 12px;
+    transform: skew(-30deg);
+    background-color: #909090;
+    cursor: pointer;
+}
+
+/* 轮播图结束 */
+/* 公告栏gonggaolan */
+.gonggaolan {
+    box-sizing: border-box;
+    padding-top: 36px;
+    position: absolute;
+    left: 308px;
+    top: 340px;
+    width: 475px;
+    height: 240px;
+    border-bottom: 1px solid #c5b4a1;
+
+}
+
+/* 最新/新闻/公告 */
+.new {
+    width: 438px;
+    border-bottom: 1px solid #c5b4a1;
+}
+
+.new1 {
+    background-image: url('../img/nnp-img/rjzx-bottom-tab-active.png');
+}
+
+.new li {
+    width: 92px;
+    height: 36px;
+    float: left;
+    margin-right: 4px;
+    background-color: #734f32;
+    color: #fff;
+    text-align: center;
+    line-height: 36px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+/* 最新开始 */
+.newss {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    width: 100%;
+    height: 150px;
+    display: none;
+}
+
+.newss ul {
+    position: relative;
+    height: 150px;
+    padding-right: 30px;
+    overflow: auto;
+
+}
+
+.newss ul li {
+    width: 100%;
+    margin-top: 8px;
+    height: 23px;
+    float: left;
+}
+
+.newss li span:first-child {
+    margin-top: 2px;
+    float: left;
+    width: 12px;
+    height: 12px;
+    background: url('../img/nnp-img/icon-list-item.png') center center no-repeat;
+}
+
+.newss p {
+    width: 76%;
+    float: left;
+    font-size: 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #484334;
+}
+
+.newss span:last-child {
+    font-size: 12px;
+    float: right;
+}
+
+/* 更改滚动条样式开始 */
+.newss ul::-webkit-scrollbar {
+    /*滚动条整体样式*/
+    width: 7px;
+    /*高宽分别对应横竖滚动条的尺寸*/
+    height: 150px;
+}
+
+.newss ul::-webkit-scrollbar-thumb {
+    /*滚动条里面小方块*/
+    border-radius: 0px;
+    -webkit-box-shadow: inset 0 0 5px transparent;
+    background: #68472e;
+}
+
+
+
+/* 更改滚动条样式结束 */
+.news-1 {
+    display: block;
+}
+
+.news-1 P,
+.news-2 p {
+    cursor: pointer;
+}
+
+.news-1 P:hover,
+.news-2 p:hover {
+    color: rgb(238, 23, 23);
+}
+
+/* 最新结束 */
+.shuxian {
+    position: absolute;
+    top: 85px;
+    left: 471px;
+    width: 1px;
+    height: 150px;
+    z-index: 0;
+    background-color: #d2cdbe;
+}
+
+/* 滚动条结束 */
+/* 忍界资讯、rjzx 结束 */
+/* 忍者资料、rzzl 开始 */
+.rzzl {
+    display: none;
+}
+
+/* 人物筛选框开始 */
+.chosse {
+    position: absolute;
+    top: 140px;
+    left: 184px;
+    width: 716px;
+    border-bottom: 1px solid #a0876d;
+    cursor: pointer;
+}
+
+.chosse li {
+    text-align: center;
+    line-height: 40px;
+    float: left;
+    width: 102px;
+    height: 40px;
+    background-color: #735032;
+    margin-right: 2px;
+    color: #fff;
+}
+
+/* 人物筛选框结束 */
+/* 人物显示框开始 */
+.personbase {
+    width: 757px;
+    height: 364px;
+    position: absolute;
+    top: 213px;
+    left: 182px;
+    overflow: auto;
+}
+
+.personbase li {
+    float: left;
+    width: 109px;
+    margin: 20px 25px 20px 10px;
+    cursor: pointer;
+}
+
+.personbase .tou {
+    position: relative;
+    width: 109px;
+    height: 108px;
+}
+
+.personbase .xiangkuang {
+    width: 100%;
+    height: 100%;
+    background: url('../img/nnp-img/rzzl-tx-bg.png') center center no-repeat;
+}
+
+.personbase .touxiang {
+    border-radius: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 92px;
+    height: 92px;
+    /* background: url('../img/nnp-img/avatar (65).png') center center no-repeat; */
+    background-size: cover;
+}
+
+.personbase p {
+    font-size: 18px;
+    color: #333333;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.person-ss {
+    display: none;
+}
+
+.person-s {
+    display: none;
+}
+
+.person-a {
+    display: none;
+}
+
+.person-b {
+    display: none;
+}
+
+
+/* 更改滚动条样式开始 */
+.personbase::-webkit-scrollbar {
+    /*滚动条整体样式*/
+    width: 7px;
+    /*高宽分别对应横竖滚动条的尺寸*/
+    height: 150px;
+}
+
+.personbase::-webkit-scrollbar-thumb {
+    /*滚动条里面小方块*/
+    border-radius: 0px;
+    -webkit-box-shadow: inset 0 0 5px transparent;
+    background: #68472e;
+}
+
+
+/* 人物显示框结束 */
+
+/* 忍者资料、rzzl 结束 */
+
+/* 视频中心开始 */
+.spzx {
+    display: none;
+}
+
+.vido-top>div:hover div {
+    display: none;
+}
+
+.vido-bottom ul li:hover span {
+    display: none;
+}
+
+.vido-top {
+    width: 670px;
+    height: 216px;
+    position: relative;
+    top: 76px;
+    left: 222px;
+}
+
+.v-t-l {
+    position: relative;
+    float: left;
+    width: 312px;
+    height: 176px;
+    background: url(../img/nnp-img/1223.jpg) center center no-repeat/cover;
+
+}
+
+.v-t-r {
+    position: relative;
+    float: right;
+    width: 312px;
+    height: 176px;
+    background: url(../img/nnp-img/1233.jpg) center center no-repeat/cover;
+}
+
+.vido-top div div {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.vido-top img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 75px;
+    height: 44px;
+}
+
+.vido-top p {
+    position: absolute;
+    bottom: -24px;
+    font-size: 12px;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+}
+
+.vido-bottom {
+    width: 670px;
+    height: 304px;
+    left: 222px;
+    top: 75px;
+    /* background-color: #fff; */
+    position: relative;
+}
+
+.vido-bottom>div {
+    width: 602px;
+    height: 36px;
+    border-bottom: 1px solid #aa927a;
+    text-align: center;
+}
+
+.vido-bottom>div span {
+    color: #fff;
+    line-height: 36px;
+    float: left;
+    width: 90px;
+    height: 36px;
+    border-bottom: 1px solid #aa927a;
+    background: url('../img/nnp-img/spzx-bottom-tab-active.png') center center no-repeat/cover;
+}
+
+.vido-bottom ul {
+    position: relative;
+    top: 16px;
+}
+
+.vido-bottom li {
+    float: left;
+    width: 157px;
+    height: 126px;
+    margin-right: 8px;
+
+}
+
+.vido-bottom li a {
+    display: block;
+    width: 157px;
+    height: 96px;
+    /* background: url('../img/nnp-img/e31.jpg') right center no-repeat;
+    background-size: cover; */
+}
+
+.vido-bottom li:nth-child(1) a {
+    background: url(../img/nnp-img/111.jpg) right center no-repeat/cover;
+}
+
+.vido-bottom li:nth-child(2) a {
+    background: url(../img/nnp-img/e31.jpg) left center no-repeat/cover;
+}
+
+.vido-bottom li:nth-child(3) a {
+    background: url(../img/nnp-img/0.jpg) right center no-repeat/cover;
+}
+
+.vido-bottom li:nth-child(4) a {
+    background: url(../img/nnp-img/q11.jpg) right center no-repeat/cover;
+}
+
+.vido-bottom li:nth-child(5) a {
+    background: url(../img/nnp-img/r33.jpg) right center no-repeat/cover;
+}
+
+.vido-bottom li:nth-child(6) a {
+    background: url(../img/nnp-img/444.jpg) right center no-repeat/cover;
+}
+
+.vido-bottom li:nth-child(7) a {
+    background: url(../img/nnp-img/3221.jpg) right center no-repeat/cover;
+}
+
+.vido-bottom li:nth-child(8) a {
+    background: url(../img/nnp-img/888.jpg) right center no-repeat/cover;
+}
+
+.vido-bottom .mask {
+    display: block;
+    width: 57px;
+    height: 34px;
+    background: url('../img/nnp-img/icon-play.png') center center no-repeat/cover;
+    /* background-color: rgba(0, 0, 0, .5); */
+}
+
+.vido-bottom li span {
+    position: absolute;
+    display: block;
+    width: 157px;
+    height: 96px;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.vido-bottom li:nth-child(1) .mask {
+    position: absolute;
+    top: 32px;
+    left: 48px;
+}
+
+.vido-bottom li:nth-child(2) .mask {
+    position: absolute;
+    top: 32px;
+    left: 210px;
+}
+
+.vido-bottom li:nth-child(3) .mask {
+    position: absolute;
+    top: 32px;
+    left: 376px;
+}
+
+.vido-bottom li:nth-child(4) .mask {
+    position: absolute;
+    top: 32px;
+    left: 543px;
+}
+
+.vido-bottom li:nth-child(5) .mask {
+    position: absolute;
+    top: 156px;
+    left: 48px;
+}
+
+.vido-bottom li:nth-child(6) .mask {
+    position: absolute;
+    top: 156px;
+    left: 210px;
+}
+
+.vido-bottom li:nth-child(7) .mask {
+    position: absolute;
+    top: 156px;
+    left: 376px;
+}
+
+.vido-bottom li:nth-child(8) .mask {
+    position: absolute;
+    top: 156px;
+    left: 543px;
+}
+
+.vido-bottom ul li p {
+    width: 100%;
+    font-size: 12px;
+    color: #4d4846;
+    margin-top: 2px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+
+
+/* 视频中心结束 */
+
+
+
+
+/* 人物情报框开始 */
+.rzzl-qb {
+    display: none;
+}
+
+.fanhuiliebiao {
+    position: absolute;
+    cursor: pointer;
+    bottom: 36px;
+    left: 10px;
+    width: 94px;
+    height: 110px;
+    background: url(../img/nnp-img/icon-more.png) center center no-repeat/cover;
+}
+
+.qb-bg {
+    position: absolute;
+    left: 119px;
+    top: 56px;
+    width: 870px;
+    height: 520px;
+    background: url('../img/nnp-img/details1-bg.png') center center no-repeat;
+    background-size: cover;
+}
+
+/* 上部分开始 */
+
+.qb-top {
+    overflow: hidden;
+    position: relative;
+    width: 870px;
+    height: 295px;
+}
+
+.qb-info {
+    position: absolute;
+    top: 86px;
+    left: 135px;
+}
+
+.qb-name {
+    font-size: 36px;
+    color: #ffe139;
+    width: 215px;
+}
+
+.cv-leve {
+    position: absolute;
+    top: 55px;
+    margin-left: 14px;
+    color: #fff;
+}
+
+.yuangun {
+    position: absolute;
+    top: 55px;
+    width: 5px;
+    height: 52px;
+    background-color: #f1e0c3;
+    border-radius: 5px;
+}
+
+.cv {
+    font-size: 16px;
+}
+
+.leve {
+    font-size: 24px;
+}
+
+.qb-img {
+    position: absolute;
+    width: 300px;
+    height: 350px;
+    left: 487px;
+    background: url(../img/nnp-img/painting.png) center center no-repeat;
+    background-size: cover;
+}
+
+/* 上部分结束 */
+/* 下部分开始 */
+.qb-bottom {
+    width: 300px;
+    height: 130px;
+    position: absolute;
+    left: 55px;
+    bottom: 72px;
+}
+
+.txt {
+    position: relative;
+}
+
+.icon {
+    position: absolute;
+    top: 11px;
+    width: 18px;
+    height: 19px;
+    background: url('../img/nnp-img/icon-title.png') no-repeat center/contain;
+}
+
+.qb-txt .txt {
+    font-size: 28px;
+    color: #482a02;
+    font-weight: bold;
+    padding-left: 26px;
+}
+
+.hengixan {
+    position: absolute;
+    bottom: 75px;
+    left: 0;
+    width: 296px;
+    height: 6px;
+    background: url('../img/nnp-img/u-title-bottom1.png') no-repeat center/cover;
+}
+
+.all {
+    width: 100%;
+    height: 66px;
+    margin-top: 40px;
+    font-size: 14px;
+    color: #362119;
+}
+
+/* 下部分结束 */
+
+
+/* 人物情报框结束 */
+/* 木叶广场地图人物/对话框开始 */
+.talk {
+    display: none;
+}
+
+.colse-talk {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    bottom: 147px;
+    right: -3px;
+    cursor: pointer;
+}
+
+.role-img {
+    width: 376px;
+    height: 439px;
+    position: absolute;
+    bottom: 167px;
+}
+
+.talk {
+    width: 1060px;
+    height: 630px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -58%);
+}
+
+.talk-bg {
+    width: 1060px;
+    height: 220px;
+    position: absolute;
+    bottom: 0;
+    background: url('../img/nnp-img/dia-con-bg.png') center bottom no-repeat/cover;
+}
+
+.talk-name {
+    position: absolute;
+    left: 86px;
+    bottom: 167px;
+    font-size: 34px;
+    color: #fdebab;
+}
+
+.tell {
+    position: absolute;
+    top: 480px;
+    font-size: 18px;
+    color: #503e1b;
+    text-indent: 64px;
+    width: 961px;
+    left: 20px;
+    /* background-color: #fff; */
+
+
+
+    /* position: absolute;
+    bottom: 112px;
+    font-size: 18px;
+    color: #503e1b;
+    text-indent: 64px; */
+}
+
+.check {
+    position: absolute;
+    right: 64px;
+    bottom: 46px;
+    width: 183px;
+    height: 48px;
+    background: url('../img/nnp-img/btn-ckzl.png') center center no-repeat/cover;
+    cursor: pointer;
+}
+
+/* 木叶广场地图人物/对话框结束 */
+
+
+/* 五大人物开始 */
+.wdrw {
+    display: none;
+}
+
+
+/* 五大人物结束 */
+
+body #cfooter {
+    background-color: #282828;
+    height: 246px;
+    font: 12px/100% "微软雅黑";
+    /* position: absolute; */
+    /* z-index: 999; */
+    bottom: 0;
+    width: 100%;
+}

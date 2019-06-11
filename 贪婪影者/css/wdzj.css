@@ -1,0 +1,476 @@
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.w {
+    position: relative;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+}
+
+img {
+    border: 0;
+    vertical-align: bottom;
+}
+
+.wrap {
+    position: relative;
+}
+
+.wrap .pro-top {
+    width: 100%;
+    height: 544px;
+    background: url("../img/protagonist-bg1.jpg") no-repeat;
+
+}
+
+.wrap .pro-bottom {
+    width: 100%;
+    height: 550px;
+    background: url("../img/protagonist-bg2.jpg") no-repeat bottom/cover;
+    position: relative;
+    z-index: 15;
+    padding-top: 120px;
+}
+
+.pro-top .w {
+    height: 554px;
+}
+
+.pro-top .w div {
+    position: absolute;
+    bottom: -190px;
+    /* 对图片进行灰度最大转换 */
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter: gray;
+}
+
+.pro-top .w div.active {
+    -webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+    -ms-filter: grayscale(0%);
+    -o-filter: grayscale(0%);
+    filter: grayscale(0%);
+    filter: gray;
+    transform: scale(1.1);
+    z-index: 8;
+}
+
+.pro-top .protagonist-f {
+    width: 477px;
+    height: 668px;
+    background: url("../img/protagonist-f.png") no-repeat center;
+    left: 0;
+    z-index: 3;
+}
+
+.pro-top .protagonist-l {
+    width: 358px;
+    height: 662px;
+    background: url("../img/protagonist-l.png") no-repeat center;
+    left: 335px;
+    z-index: 5;
+}
+
+.pro-top .protagonist-h {
+    width: 250px;
+    height: 610px;
+    background: url("../img/protagonist-h.png") no-repeat center;
+    left: 575px;
+    bottom: -135px !important;
+    z-index: 3;
+}
+
+.pro-top .protagonist-s {
+    width: 368px;
+    height: 680px;
+    background: url("../img/protagonist-s.png") no-repeat center;
+    left: 700px;
+    z-index: 5;
+}
+
+.pro-top .protagonist-t {
+    width: 342px;
+    height: 625px;
+    background: url("../img/protagonist-h.png") no-repeat center;
+    left: 995px;
+    z-index: 3;
+}
+
+.pro-top .pro-tab {
+    position: absolute;
+    width: 985px;
+    bottom: -60px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 20;
+}
+
+.pro-top .pro-tab li {
+    float: left;
+    width: 117px;
+    height: 131px;
+    margin: 0 50px;
+    cursor: pointer;
+}
+
+.pro-top .pro-tab li:nth-child(1) {
+    margin-left: 0;
+}
+
+/* 规定属于其父元素的最后一个 li 元素的每个 li */
+.pro-top .pro-tab li:last-of-type {
+    margin-right: 0;
+}
+
+.pro-top .pro-tab .pro-tab-f {
+    background: url("../img/pro-tab-f.png") no-repeat center;
+}
+
+.pro-top .pro-tab .pro-tab-f.active {
+    background: url("../img/pro-tab-f-active.png") no-repeat center;
+}
+
+.pro-top .pro-tab .pro-tab-l {
+    background: url("../img/pro-tab-l.png") no-repeat center;
+}
+
+.pro-top .pro-tab .pro-tab-l.active {
+    background: url("../img/pro-tab-l-active.png") no-repeat center;
+}
+
+.pro-top .pro-tab .pro-tab-h {
+    background: url("../img/pro-tab-h.png") no-repeat center;
+}
+
+.pro-top .pro-tab .pro-tab-h.active {
+    background: url("../img/pro-tab-h-active.png") no-repeat center;
+}
+
+.pro-top .pro-tab .pro-tab-s {
+    background: url("../img/pro-tab-s.png") no-repeat center;
+}
+
+.pro-top .pro-tab .pro-tab-s.active {
+    background: url("../img/pro-tab-s-active.png") no-repeat center;
+}
+
+.pro-top .pro-tab .pro-tab-t {
+    background: url("../img/pro-tab-t.png") no-repeat center;
+}
+
+.pro-top .pro-tab .pro-tab-t.active {
+    background: url("../img/pro-tab-t-active.png") no-repeat center;
+}
+
+.pro-bottom .info {
+    width: 470px;
+    height: 280px;
+    position: absolute;
+    left: 50px;
+}
+
+.pro-bottom .info .info-f {
+    background: url("../img/f-txt.png") no-repeat center/cover;
+    width: 175px;
+    height: 63px;
+}
+
+.pro-bottom .info .info-l {
+    background: url("../img/l-txt.png") no-repeat center/cover;
+    width: 198px;
+    height: 63px;
+}
+
+.pro-bottom .info .info-h {
+    background: url("../img/h-txt.png") no-repeat center/cover;
+    width: 200px;
+    height: 57px;
+}
+
+.pro-bottom .info .info-s {
+    background: url("../img/s-txt.png") no-repeat center/cover;
+    width: 192px;
+    height: 65px;
+}
+
+.pro-bottom .info .info-t {
+    background: url("../img/t-txt.png") no-repeat center/cover;
+    width: 201px;
+    height: 55px;
+}
+
+.pro-bottom .info .info-speciality {
+    font-size: 30px;
+    font-weight: bold;
+    color: #2f1003;
+    margin: 40px 0;
+    position: relative;
+    width: 369px;
+    text-align: center;
+}
+
+.pro-bottom .info .info-speciality::after {
+    content: '';
+    background: url("../img/line-top.png") no-repeat center;
+    width: 369px;
+    height: 15px;
+    position: absolute;
+    top: -20px;
+    left: 0;
+}
+
+.pro-bottom .info .info-speciality::before {
+    content: '';
+    background: url("../img/line-bottom.png") no-repeat center;
+    width: 369px;
+    height: 15px;
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+}
+
+.pro-bottom .info .info-instructions {
+    font-size: 18px;
+    line-height: 30px;
+    color: #362119;
+    text-align: left;
+}
+
+.pro-bottom .pro-cont {
+    width: 550px;
+    height: 280px;
+    position: absolute;
+    left: 520px;
+}
+
+.pro-bottom .pro-cont ul {
+    width: 70px;
+    height: 280px;
+    float: left;
+    margin-left: 38px;
+}
+
+.pro-bottom .pro-cont ul li.spr-img2 {
+    background: url("../img/spr-img2.png") no-repeat;
+    width: 69px;
+    height: 69px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.pro-bottom .f-cont ul li:nth-of-type(1) {
+    background-position: 0 0;
+    top: 20px;
+}
+
+.pro-bottom .f-cont ul li:nth-of-type(2) {
+    background-position: 0 -80px;
+    top: 104px;
+}
+
+.pro-bottom .f-cont ul li:nth-of-type(3) {
+    background-position: 0 -160px;
+    top: 188px;
+}
+
+.pro-bottom .f-cont ul li.active:nth-of-type(1) {
+    background-position: -81px 0;
+}
+
+.pro-bottom .f-cont ul li.active:nth-of-type(2) {
+    background-position: -81px -80px;
+}
+
+.pro-bottom .f-cont ul li.active:nth-of-type(3) {
+    background-position: -80px -160px;
+}
+
+.pro-bottom .l-cont ul li:nth-of-type(1) {
+    background-position: -168px 0;
+    top: 20px;
+}
+
+.pro-bottom .l-cont ul li:nth-of-type(2) {
+    background-position: -169px -80px;
+    top: 104px;
+}
+
+.pro-bottom .l-cont ul li:nth-of-type(3) {
+    background-position: -169px -160px;
+    top: 188px;
+}
+
+.pro-bottom .l-cont ul li.active:nth-of-type(1) {
+    background-position: -249px 0;
+}
+
+.pro-bottom .l-cont ul li.active:nth-of-type(2) {
+    background-position: -249px -80px;
+}
+
+.pro-bottom .l-cont ul li.active:nth-of-type(3) {
+    background-position: -249px -160px;
+}
+
+.pro-bottom .h-cont ul li:nth-of-type(1) {
+    background-position: -503px 0;
+    top: 20px;
+}
+
+.pro-bottom .h-cont ul li:nth-of-type(2) {
+    background-position: -503px -80px;
+    top: 104px;
+}
+
+.pro-bottom .h-cont ul li:nth-of-type(3) {
+    background-position: -503px -160px;
+    top: 188px;
+}
+
+.pro-bottom .h-cont ul li.active:nth-of-type(1) {
+    background-position: -582px 0;
+}
+
+.pro-bottom .h-cont ul li.active:nth-of-type(2) {
+    background-position: -583px -80px;
+}
+
+.pro-bottom .h-cont ul li.active:nth-of-type(3) {
+    background-position: -583px -160px;
+}
+
+.pro-bottom .s-cont ul li:nth-of-type(1) {
+    background-position: -337px 0;
+    top: 20px;
+}
+
+.pro-bottom .s-cont ul li:nth-of-type(2) {
+    background-position: -337px -80px;
+    top: 104px;
+}
+
+.pro-bottom .s-cont ul li:nth-of-type(3) {
+    background-position: -337px -159px;
+    top: 188px;
+}
+
+.pro-bottom .s-cont ul li.active:nth-of-type(1) {
+    background-position: -414px 0;
+}
+
+.pro-bottom .s-cont ul li.active:nth-of-type(2) {
+    background-position: -415px -80px;
+}
+
+.pro-bottom .s-cont ul li.active:nth-of-type(3) {
+    background-position: -415px -159px;
+}
+
+.pro-bottom .t-cont ul li:nth-of-type(1) {
+    background-position: -671px 0;
+    top: 20px;
+}
+
+.pro-bottom .t-cont ul li:nth-of-type(2) {
+    background-position: -673px -79px;
+    top: 104px;
+}
+
+.pro-bottom .t-cont ul li:nth-of-type(3) {
+    background-position: -671px -159px;
+    top: 188px;
+}
+
+.pro-bottom .t-cont ul li.active:nth-of-type(1) {
+    background-position: -751px 0;
+}
+
+.pro-bottom .t-cont ul li.active:nth-of-type(2) {
+    background-position: -753px -80px;
+}
+
+.pro-bottom .t-cont ul li.active:nth-of-type(3) {
+    background-position: -751px -160px;
+}
+
+.pro-bottom .pro-cont ul li.active::before {
+    content: '';
+    border-width: 8px 0 8px 8px;
+    border-style: solid;
+    border-color: transparent transparent transparent #87684a;
+    position: absolute;
+    top: 26px;
+    left: -14px;
+}
+
+.pro-bottom .p2-v-bg {
+    background: url("../img/p2-video-bg.png") no-repeat center/cover;
+    width: 430px;
+    height: 271px;
+    padding: 17px 0;
+    float: right;
+}
+
+.pro-bottom .tab-com a {
+    display: block;
+    position: relative;
+}
+
+.pro-bottom .tab-com a::before {
+    content: '';
+    width: 430px;
+    height: 237px;
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.pro-bottom .tab-com a span {
+    display: block;
+    width: 79px;
+    height: 46px;
+    background: none !important;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -20px;
+    margin-left: -36px;
+}
+
+.pro-bottom .tab-com .v-photo {
+    width: 430px;
+    height: 270px;
+
+}
+
+.pro-bottom .btn-back {
+    width: 152px;
+    height: 34px;
+    background: url("../img/btn-fhsy.png") no-repeat center;
+    position: absolute;
+    top: -50px;
+    right: 130px;
+}

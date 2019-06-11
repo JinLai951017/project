@@ -1,0 +1,83 @@
+﻿@charset "utf-8";
+
+
+fieldset,
+button,
+input,
+select,
+option {
+    vertical-align: middle;
+    font: 12px/18px arial, sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+textarea {
+    resize: none
+}
+
+.weiduduan {
+    width: 1200px;
+    margin: 50px auto 0;
+}
+
+#phoneCarousel {
+    height: 470px;
+    margin: 0 auto;
+    position: relative;
+    width: 1200px;
+}
+
+#phoneCarousel .arrow {
+    width: 44px;
+    height: 44px;
+    background: url(../images/arrows.png) no-repeat;
+    position: absolute;
+    top: 50%;
+    margin-top: -22px;
+    left: 0;
+    cursor: pointer;
+}
+
+#phoneCarousel .next {
+    background-position: right top;
+    left: auto;
+    right: 0;
+}
+
+#phoneCarousel .arrow:hover {
+    background-position: left bottom;
+}
+
+#phoneCarousel .next:hover {
+    background-position: right bottom;
+}
+
+#stage {
+    /* left: 50%;
+    margin-left: -350px; */
+    position: absolute;
+    width: 1200px;
+    height: 470px;
+}
+
+#stage img {
+    display: none;
+}
+
+#stage .default {
+    display: block;
+    left: 50%;
+    margin-left: -135px;
+    position: absolute;
+}
+
+#stage .animationReady {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}

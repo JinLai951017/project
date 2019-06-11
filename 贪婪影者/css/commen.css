@@ -1,0 +1,448 @@
+/* 头部模块样式 */
+
+.cHeader {
+    background-color: black;
+    position: relative;
+}
+.test {
+    height: 3500px;
+}
+
+.header-logo {
+    float: left;
+    margin-right: 15px;
+}
+.cHeader .nav {
+    float: left;
+    height: 70px;
+}
+.cHeader .nav li {
+    float: left;
+    height: 100%;
+    line-height: 70px;
+    margin-right: 40px;
+}
+.cHeader .nav a {
+    font-size: 16px;
+    color: #fff;
+}
+.cHeader .nav a:hover {
+    color: red;
+}
+.btn-explore,.btn-forum {
+    width: 182px;
+    height: 49px;
+    margin-top: 10px;
+}
+.cHeader .btn-forum {
+    background: url(../img/btn-forum.png);
+    float: left;
+}
+.cHeader .btn-explore {
+    float: left;
+    background: url(../img/btn-explore.png);
+}
+
+.cHeader .detail {
+    background-color: black;
+    overflow: hidden;
+    display: none;
+    width: 100%;
+    position: absolute;
+    top: 70px;
+    opacity: 0.7;
+    z-index: 999;
+}
+.cHeader .detail ul {
+    margin-left: 346px;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+/* .cHeader .detail ul .first {
+    margin-top: 0;
+} */
+.cHeader .detail ul li {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.cHeader .detail ul li a {
+    color: #fff;
+    font-size: 16px;
+}
+.cHeader .detail ul li a:hover {
+    color: red;
+}
+
+
+/* 右侧固定栏样式 */
+#cRightSide {
+    width: 266px;
+    height: 523px;
+    background: url('../img/img-side-bg.png') no-repeat center;
+    position: fixed;
+    top: 150px;
+    right: 15px;
+    box-sizing: border-box;
+    z-index: 999;
+}
+#cRightSide .qr {
+    width: 138px;
+    margin-left: 84px;
+    margin-top: 36px;
+}
+#cRightSide .center {
+    margin-left: 74px;
+    margin-top: 10px;
+    display: block;
+    position: relative;
+}
+#cRightSide .gift-qr {
+    background: url('../img/dia-reward.png') no-repeat;
+    position: absolute;
+    left: -118px;
+    width: 120px;
+    height: 114px;
+    top: -26px;
+    display: none;
+}
+#cRightSide .gift-qr img {
+    margin-left: 5px;
+    margin-top: 5px;
+    width: 96px;
+}
+#cRightSide .gift:hover .gift-qr {
+    display: block;
+}
+#cRightSide .icon-list {
+    margin-top: 20px;
+    margin-left: 74px;
+    height: 44px;
+    position: relative;
+}
+#cRightSide .icon-list .qq {
+    display: block;
+    height: 44px;
+    width: 55px;
+    background: url('../img/icon-qq.png') no-repeat;
+    position: absolute;
+}
+#cRightSide .icon-list div {
+    background: url('../img/im-sprite.png') no-repeat 0px -50px;
+    width: 210px;
+    height: 124px;
+    position: absolute;
+    top: 44px;
+    left: -128px;
+    display: none;
+}
+#cRightSide .icon-list img {
+    height: 90px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+#cRightSide p {
+    position: absolute;
+    top: 48px;
+    width: 58px;
+    left: 126px;
+    font-size: 14px;
+    line-height: 18px;
+}
+#cRightSide .icon-list .weibo {
+    height: 44px;
+    width: 55px;
+    background: url('../img/icon-weibo.png') no-repeat;
+    position: absolute; 
+    left: 56px;
+}
+#cRightSide .icon-list .wechat {
+    height: 44px;
+    width: 55px;
+    background: url('../img/icon-wechat.png') no-repeat;
+    position: absolute; 
+    left: 110px;
+}
+#cRightSide .qq:hover .qq-qr {
+    display: block;
+}
+#cRightSide .weibo:hover .wb-qr {
+    display: block;
+}
+#cRightSide .wechat:hover .wechat-qr {
+    display: block;
+}
+#cRightSide .return-top {
+    display: block;
+    height: 60px;
+    width: 199px;
+    margin-left: 56px;
+    margin-top: 12px;
+
+}
+
+
+
+/* 首页右侧导航模块样式 */
+#cRightnNav {
+    height: 820px;
+    width: 184px;
+    background: url('../img/right-nav-bg-new.png') no-repeat center ;
+    position: fixed;
+    top: 100px;
+    right: 0;
+    display: none;
+}
+
+#cRightnNav .side-nav {
+    /* margin-top: 166px;
+    margin-left: 26px; */
+    width: 130px;
+    margin: 166px auto 0;
+}
+#cRightnNav .side-nav li {
+    height: 40px;
+    width: 130px;
+    /* background-color: pink; */
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+    font-family: "Microsoft YaHei";
+    font-weight: bolder;
+
+}
+#cRightnNav li.active {
+    background: url('../img/nav-active.png');
+}
+#cRightnNav li.active a {
+    color: #fff;
+}
+#cRightnNav .nav-qr {
+    height: 127px;
+    width: 127px;
+    display: block;
+    margin: 10px auto;
+}
+#cRightnNav .app-load {
+    width: 130px;
+    height: 140px;
+    background: url('../img/nav-bottom-new.png') ;
+    margin: 0 auto;
+}
+#cRightnNav .app-load a {
+    width: 129px;
+    height: 43px;
+    display: block;
+    margin-top: 6px;
+}
+#cRightnNav .convent {
+    display: block;
+    width: 129px;
+    height: 43px;
+    background: url('../img/btn-cdk.png');
+    margin: 10px auto;
+}
+
+#cRightnNav .nav-icon{
+  height: 40px;
+}
+
+#cRightnNav .qq {
+    background: url('../img/icon-qq.png') no-repeat;
+    position: absolute;
+    left: 30px;
+}
+#cRightnNav .weibo {
+    background: url('../img/icon-weibo.png') no-repeat;
+    left: 72px;
+}
+#cRightnNav .wechat{
+    background: url('../img/icon-wechat.png') no-repeat;
+    left: 118px;
+}
+#cRightnNav .nav-icon a {
+    height: 36px;
+    width: 40px;
+    position: absolute; 
+    background-size: 80% 80%;
+}
+#cRightnNav .qq:hover div {
+    display: block;
+}
+#cRightnNav .weibo:hover div {
+    display: block;
+}
+#cRightnNav .wechat:hover div {
+    display: block;
+}
+#cRightnNav .nav-icon div {
+    background: url('../img/layer-bg.png') no-repeat;
+    width: 210px;
+    height: 124px;
+    position: absolute;
+    top: -122px;
+    left: -140px;
+    display: none;
+}
+#cRightnNav p {
+    position: absolute;
+    top: 42px;
+    width: 64px;
+    left: 126px;
+    font-size: 16px;
+    line-height: 20px;
+}
+#cRightnNav .nav-icon img {
+    height: 90px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#cRightnNav .nav-hide {
+    display: block;
+    width: 129px;
+    height: 40px;
+    /* background-color: pink; */
+    margin-left: 26px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 40px;
+    color: #666;
+}
+#cRightNavShow {
+    width: 42px;
+    height: 142px;
+    position: fixed;
+    right: 0;
+    top: 400px;
+    display: none;
+}
+#cRightNavShow a {
+    display: block;
+    height: 100%;
+    background: url('../img/nav-right-show.png');
+}
+
+
+/* 首页右侧卡卡西 */
+#cSimulator {
+    width: 386px;
+    height: 417px;
+    background: url('../img/simulator-bg.png') no-repeat;
+    background-size: 85% 85%;
+    position: fixed;
+    z-index: 999;
+    top: 300px;
+}
+#cSimulator a {
+    position: absolute;
+    bottom: 69px;
+    right: 113px;
+}
+
+
+/* 欢迎页右侧固定栏目 */
+#cWelcomeSide {
+    width: 192px;
+    height: 413px;
+    background-color: black;
+    position: fixed;
+    right: 20px;
+    top: 300px;
+    /* display: none; */
+}
+#cWelcomeSide>a {
+    width: 34px;
+    height: 133px;
+    position: absolute;
+}
+#cWelcomeSide .sideShow {
+    top: 126px;
+    left: -52px;
+    background: url('../img/btn-nav-show.png');
+    display: none;
+}
+#cWelcomeSide .sideHide {
+    top: 126px;
+    left: -30px;
+    background: url('../img/btn-nav-hide.png');
+}
+#cWelcomeSide .side-top {
+    width: 182px;
+    margin: 0 auto;
+}
+#cWelcomeSide .side-top li {
+    height: 54px;
+}
+#cWelcomeSide .side-top li a {
+    display: block;
+    height: 100%;
+}
+#cWelcomeSide .top {
+    background: url(../img/sprite1.png);
+}
+#cWelcomeSide .sports {
+    background: url(../img/sprite1.png) -383px 0;
+}
+#cWelcomeSide .qr {
+    width: 156px;
+    display: block;
+    margin: 8px auto;
+}
+#cWelcomeSide .side-bottom li {
+    width: 182px;
+    height: 66px;
+    margin-left: 6px;
+}
+#cWelcomeSide .ios {
+    background: url('../img/download-ios.png')
+}
+#cWelcomeSide .android {
+    background: url('../img/download-az.png')
+}
+#cWelcomeSide .side-bottom a {
+    display: block;
+    height: 100%;
+}
+
+
+/* 底部模块样式 */
+#cfooter {
+    background-color: #282828;
+    height:246px;
+    font: 12px/100% "微软雅黑";
+    /* position: absolute;
+   bottom: -667px;
+   width: 100%;  */
+}
+
+#cfooter .content {
+    /* background-color: red; */
+    height: 100%;
+}
+
+#cfooter .left {
+    width: 50%;
+    height: 100px;
+    overflow: hidden;
+    float: left;
+}
+#cfooter .right {
+    width: 50%;
+    height: 100px;
+    float: left;
+}
+#cfooter .left ul {
+    margin-top: 50px;
+}
+#cfooter .left li{
+    float: left;
+}
+#cfooter .right ul {
+    margin-top: 50px;
+    color: #8c8c8c;
+}
+#cfooter .right ul li {
+    margin-bottom: 14px;
+}

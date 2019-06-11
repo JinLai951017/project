@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+img {
+  vertical-align: middle;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+header {
+  width: 100%;
+  z-index: 1000;
+  position: fixed;
+}
+header .nav {
+  position: relative;
+  z-index: 2;
+}
+header .nav .nav-bg {
+  width: 1510px;
+  height: 84px;
+  position: absolute;
+  left: 50%;
+  margin-left: -756px;
+}
+header .nav .nav-bg-left {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+header .nav .nav-bg-right {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+header .nav .logo {
+  width: 146px;
+  height: 78px;
+  position: absolute;
+  top: 0px;
+  left: 350px;
+}
+header .nav .btn1 {
+  position: absolute;
+  top: 20px;
+  right: 610px;
+  width: 182px;
+  height: 49px;
+}
+header .nav .btn2 {
+  position: absolute;
+  top: 20px;
+  right: 400px;
+  width: 182px;
+  height: 49px;
+}
+.main .denglu {
+  position: absolute;
+  top: 350px;
+  margin: 0 auto;
+  margin-left: -32.5px;
+  z-index: 99;
+  text-align: center;
+  font-size: 14px;
+  color: #fae16a;
+  left: 50%;
+  display: none;
+}
+.main .denglu a {
+  color: #fae16a;
+}
+.main .main-bg {
+  position: relative;
+  top: -380px;
+}
+.main .main-bg .bgc2 {
+  position: absolute;
+  top: 0px;
+  left: 19%;
+}
+.main .cont-title-img {
+  position: absolute;
+  width: 649px;
+  height: 226px;
+  top: 150px;
+  left: 50%;
+  margin-left: -325px;
+  display: none;
+}
+.main .cont-center {
+  background: url(../img/cont-center.png) no-repeat;
+  position: absolute;
+  left: 50%;
+  margin-left: -122px;
+  top: 380px;
+  z-index: 99;
+  width: 253px;
+  height: 564px;
+  animation: plan2 1.8s infinite steps(30, end) both;
+  display: none;
+}
+.btn-1 {
+  background: url(../img/btn-lock.png) no-repeat;
+  width: 375px;
+  height: 142px;
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 950px;
+  margin-left: -181px;
+  display: none;
+}
+.loading {
+  position: fixed;
+  top: 500px;
+  left: 50%;
+  margin-left: -278px;
+}
+.loading .loading-icon {
+  position: absolute;
+}
+.loading .loading-line-out {
+  position: absolute;
+  top: 89px;
+  height: 20px;
+  background-color: #000;
+  width: 536px;
+  border-radius: 10px 10px 10px 10px;
+}
+.loading .loading-line-out .loading-line-in {
+  background: linear-gradient(to right, #f56b0e 0%, #f6d612 100%);
+  height: 100%;
+  border-radius: 10px 10px 10px 10px;
+  position: absolute;
+  left: 0px;
+  z-index: 99;
+}
+.loading .loading-num {
+  position: absolute;
+  top: 100px;
+  left: -50px;
+  font-size: 30px;
+  height: 58px;
+  line-height: 58px;
+  text-align: center;
+  color: #f5a010;
+  width: 150px;
+  font-weight: bold;
+  font-style: italic;
+}
+.mp3 {
+  z-index: 99999999999999;
+  display: block;
+  position: fixed;
+  width: 55px;
+  height: 55px;
+  top: 120px;
+  right: 16%;
+  background: url(../img/open-m.png) no-repeat;
+  animation: turn 1s linear alternate infinite;
+}
+.mp3-stop {
+  z-index: 99999999999999;
+  display: none;
+  position: fixed;
+  width: 55px;
+  height: 55px;
+  top: 120px;
+  right: 16%;
+  background: url(../img/stop-m.png) no-repeat;
+}
+@keyframes turn {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(60deg);
+  }
+}
+
+body #cfooter {
+  background-color: #282828 ;
+  height:446px;
+  font: 12px/100% "微软雅黑";
+  position: absolute;
+ bottom: -667px;
+ width: 100%; 
+}
